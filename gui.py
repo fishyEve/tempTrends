@@ -1,9 +1,9 @@
 import taipy.gui.builder as tgb
 from data import simulate_temperature_data
 
-#This function updates the temperature data based on the slider's value
-#It recalculates the data and updates the chart dynamically
 def on_slider(state):
+    #This function updates the temperature data based on the slider's value.
+    #It recalculates the data and updates the chart dynamically
     years, temps = simulate_temperature_data(state.value)
     state.years = years
     state.temperatures = temps
@@ -26,4 +26,3 @@ def build_gui():
         tgb.text(value="Year range: {value} years")
 
     return page
-
