@@ -1,5 +1,5 @@
 # tempTrends
-A repository containing code to analyze global temperature trends.
+A repository containing code to analyze global temperature trends. UPDATE 01/19/2025: BUG RELATED TO SLIDER
 
 This project uses Taipy, a Python GUI framework, to visualize synthetic temperature trends over time, simulating global warming. The goal of this program is to provide an interactive chart that shows how the temperature on our planet has increased over a period of years. The user can interact with the program by adjusting a slider to change the range of years for the temperature trend. As the slider is adjusted, the temperature data and chart are dynamically updated, demonstrating how temperatures increase over time.
 
